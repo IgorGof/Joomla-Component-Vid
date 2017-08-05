@@ -1,1 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.0" type="template" client="site">
+    <name>companylogo</name>
+    <description>Шаблон Joomla 3.0</description>
+    <version>1.0.0</version>
+    <creationDate>Jule 2017</creationDate>
+    <author>Igor Goferberg</author>
+    <authorEmail>igorgof@yandex.ru</authorEmail>
+    <authorUrl>None</authorUrl>
+    <license>GNU GPL v3</license>
+    <copyright>Копирайт</copyright>
+
+    <files>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>template_preview.png</filename>
+        <filename>style.css</filename>
+
+        <folder>images</folder>
+        <folder>html</folder>
+    </files>
+
+</extension>
