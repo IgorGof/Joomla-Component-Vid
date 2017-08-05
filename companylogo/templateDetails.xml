@@ -29,4 +29,12 @@
         <position>position-3</position>
     </positions>
 
+    <languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.sys.ini</language>
+
+        <language tag="ru-RU">en-GB/en_GB.tpl_companylogo.ini</language>
+        <language tag="ru-RU">en-GB/en-GB.tpl_companylogo.sys.ini</language>
+    </languages>
+
 </extension>
