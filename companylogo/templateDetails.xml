@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension version="3.0" type="template" client="site">
     <name>companylogo</name>
-    <description>Шаблон Joomla 3.0</description>
+    <description>DESC</description>
     <version>1.0.0</version>
-    <creationDate>Jule 2017</creationDate>
+    <creationDate>DATE</creationDate>
     <author>Igor Goferberg</author>
     <authorEmail>igorgof@yandex.ru</authorEmail>
     <authorUrl>None</authorUrl>
     <license>GNU GPL v3</license>
-    <copyright>Копирайт</copyright>
+    <copyright>COPYRIGHT</copyright>
 
     <files>
         <filename>index.html</filename>
