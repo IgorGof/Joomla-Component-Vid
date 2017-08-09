@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension version="3.0" type="template" client="site">
     <name>companylogo</name>
-    <description>DESC</description>
+    <description>TPL_COMPANYLOGO_DESC</description>
     <version>1.0.0</version>
-    <creationDate>DATE</creationDate>
+    <creationDate>TPL_COMPANYLOGO_DATE</creationDate>
     <author>Igor Goferberg</author>
     <authorEmail>igorgof@yandex.ru</authorEmail>
     <authorUrl>None</authorUrl>
     <license>GNU GPL v3</license>
-    <copyright>COPYRIGHT</copyright>
+    <copyright>TPL_COMPANYLOGO_COPY</copyright>
 
     <files>
         <filename>index.html</filename>
@@ -33,7 +33,7 @@
         <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.ini</language>
         <language tag="ru-RU">ru-RU/ru-RU.tpl_companylogo.sys.ini</language>
 
-        <language tag="ru-RU">en-GB/en_GB.tpl_companylogo.ini</language>
+        <language tag="ru-RU">en-GB/en-GB.tpl_companylogo.ini</language>
         <language tag="ru-RU">en-GB/en-GB.tpl_companylogo.sys.ini</language>
     </languages>
 
