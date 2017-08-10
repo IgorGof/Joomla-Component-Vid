@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrap{
+    width: 1100px;
+    margin: 0px auto;
+}
+.head .logo {
+    float: left;
+}
+.head .menunav {
+    float: right;
+    width: 780px;
+}
+.head ul.menunav {
+    list-style: none;
+}
+.head .menunav li {
+    float: left;
+    border-left:3px solid #fff;
+    background: #646464;
+}
+.head .menunav a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #4bbda5;
+    font: 16px Verdana, sans-serif;
+}
