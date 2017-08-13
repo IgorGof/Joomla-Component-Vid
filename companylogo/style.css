@@ -3,30 +3,37 @@ body{
     padding: 0px;
 }
 .wrap{
-    width: 1100px;
+    width: 1150px;
     margin: 0px auto;
 }
 .head .logo {
+    padding-top: 15px; 
     float: left;
+    width: 200 px;
 }
 .head .menunav {
     float: right;
-    width: 780px;
 }
 .head ul.menunav {
     list-style: none;
+    margin: 20px 0px;
 }
 .head .menunav li {
     float: left;
-    border-left:3px solid #fff;
-    background: #646464;
+    border-left:2px solid #fff;
+    background: #383737;
 }
 .head .menunav a {
     display: block;
-    padding: 5px 15px;
+    padding: 5px 10px;
     text-decoration: none;
     color: #4bbda5;
     font: 16px Verdana, sans-serif;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+
 }
 
 /*------------------------------------*\
@@ -38,18 +45,6 @@ body{
 	margin-right:3px;
 	position:relative;
 	display:block;
-}
-.nav li a{
-	display:block;
-	padding:5px;
-	color:#fff;
-	background:#333;
-	text-decoration:none;
-	
-	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border-radius:2px;
 }
 .nav li a:hover{
 	color:#fff;
@@ -77,7 +72,8 @@ body{
 }
 .nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
 	left:0; /* Приносим его обратно на экран, когда нужно */
-	opacity:1; /* Делаем непрозрачным */
+    opacity:1; /* Делаем непрозрачным */
+    z-index: 5;
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
 	background:#6b0c36;
