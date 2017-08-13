@@ -11,9 +11,10 @@
     <body>
         <div class="wrap">
             <div class="head">
-                <a href="/">
-                    <img closs=logo src="<?php echo JUri::base(true)?>">
+                <a href="<?php echo JUri::base(true); ?>">
+                    <img class="logo" src="<?php echo JUri::base(true)."/templates/".$doc->template."/images/logo.png"; ?>">
                 </a>
+                <jdoc:include type="modules" name="position-0"/>
             </div>
         </div>
     </body>
